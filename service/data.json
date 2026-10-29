@@ -984,7 +984,11 @@
       "pack": 4,
       "sku": "1111109-004",
       "url": "https://shop.ravenol.ru/motornoe-maslo-ravenol-dfe-0w-20/?sku_id=80",
-      "spec": "SAE 0W-20; текущая карточка API SQ (RC), ILSAC GF-7A. В описании встречается прежняя SP / GF-6A: сверить этикетку партии. Одобрение GM dexos1 Gen 3 не является одобрением Zeekr."
+      "spec": "SAE 0W-20; текущая карточка API SQ (RC), ILSAC GF-7A. В описании встречается прежняя SP / GF-6A: сверить этикетку партии. Одобрение GM dexos1 Gen 3 не является одобрением Zeekr.",
+      "verifiedAt": null,
+      "verification": "reference",
+      "status": "reference",
+      "referenceDate": "2026-10-29"
     },
     "extra": {
       "name": "RAVENOL EV-Synto Extra Fluid 70W E-TF",
@@ -992,7 +996,11 @@
       "pack": 1,
       "sku": "1215101-001",
       "url": "https://shop.ravenol.ru/ravenol-ev-synto-extra-fluid-70w-e-tf/",
-      "spec": "Заявленные соответствия BOT 805C EV, ON EV W1, VW G 053 013 M2. Специализированная жидкость электроприводов; не заменять обычным GL-5 по одной вязкости."
+      "spec": "Заявленные соответствия BOT 805C EV, ON EV W1, VW G 053 013 M2. Специализированная жидкость электроприводов; не заменять обычным GL-5 по одной вязкости.",
+      "verifiedAt": null,
+      "verification": "reference",
+      "status": "reference",
+      "referenceDate": "2026-10-29"
     },
     "super": {
       "name": "RAVENOL EV-Synto Super Fluid 75W E-TF",
@@ -1000,15 +1008,23 @@
       "pack": 1,
       "sku": "1215102-001",
       "url": "https://shop.ravenol.ru/ravenol-ev-synto-super-fluid-75w-e-tf/",
-      "spec": "Заявлено VW G 055 524. Не взаимозаменяем с Extra 70W без подтверждения по конкретному узлу."
+      "spec": "Заявлено VW G 055 524. Не взаимозаменяем с Extra 70W без подтверждения по конкретному узлу.",
+      "verifiedAt": null,
+      "verification": "reference",
+      "status": "reference",
+      "referenceDate": "2026-10-29"
     },
     "vgl": {
       "name": "RAVENOL VGL 70W-80",
       "price": 4833,
       "pack": 1,
       "sku": "1221112-001",
-      "url": "https://shop.ravenol.ru/ravenol-vgl-70w-80/",
-      "spec": "API GL-5 / MT-1. Для узлов, где он указан в справочнике; не универсальное масло для DHT."
+      "url": "https://shop.ravenol.ru/ravenol-vgl-70w-80/?sku_id=11988",
+      "spec": "API GL-5 / MT-1. Для узлов, где он указан в справочнике; не универсальное масло для DHT.",
+      "verifiedAt": null,
+      "verification": "reference",
+      "status": "reference",
+      "referenceDate": "2026-10-29"
     },
     "dot": {
       "name": "RAVENOL DOT 4 LV",
@@ -1016,15 +1032,137 @@
       "pack": 1,
       "sku": "1350615-001",
       "url": "https://shop.ravenol.ru/ravenol-dot-4-lv/?sku_id=13161",
-      "spec": "DOT 4, ISO 4925 Class 6; низкотемпературная вязкость LV. Заводское требование Zeekr сверяется отдельно."
+      "spec": "DOT 4, ISO 4925 Class 6; низкотемпературная вязкость LV. Заводское требование Zeekr сверяется отдельно.",
+      "verifiedAt": null,
+      "verification": "reference",
+      "status": "reference",
+      "referenceDate": "2026-10-29"
     },
     "etc": {
       "name": "RAVENOL ETC Premix −40°C C12evo",
       "price": 4026,
       "pack": 5,
       "sku": "1410166-005",
-      "url": "https://catalog.ravenol.ru/ravenol-etc-premix-40c-protect-c12evo/",
-      "spec": "Готовая смесь, не концентрат. Заявлено VW TL 774-L (G12evo), ASTM D3306 / D4985 / D6210. Цвет не определяет совместимость; не смешивать без проверки химии и требований контура."
+      "url": "https://shop.ravenol.ru/ravenol-etc-premix-40c-protect-c12evo/?sku_id=12083",
+      "spec": "Готовая смесь, не концентрат. Заявлено VW TL 774-L (G12evo), ASTM D3306 / D4985 / D6210. Цвет не определяет совместимость; не смешивать без проверки химии и требований контура.",
+      "verifiedAt": null,
+      "verification": "reference",
+      "status": "reference",
+      "referenceDate": "2026-10-29"
+    }
+  },
+  "serviceProfiles": {
+    "001-nidec": {
+      "car": "001",
+      "label": "2021–2023 · Nidec · TZ184XY180",
+      "model": "001",
+      "nodes": [
+        0,
+        1
+      ]
+    },
+    "001-weirui": {
+      "car": "001",
+      "label": "2021–2023 · Wei Rui · сверить коды",
+      "model": "001",
+      "nodes": [
+        2,
+        3
+      ]
+    },
+    "001-2023": {
+      "car": "001",
+      "label": "Wei Rui · исполнение 2023 · сверить VIN",
+      "model": "001",
+      "nodes": [
+        4
+      ]
+    },
+    "007-awd": {
+      "car": "007",
+      "label": "AWD · YS190XYE01 / TZ235XYC01",
+      "model": "007",
+      "nodes": [
+        0,
+        1
+      ]
+    },
+    "009-early": {
+      "car": "009",
+      "label": "2022–2024 · раннее исполнение",
+      "model": "009",
+      "nodes": [
+        0,
+        1
+      ]
+    },
+    "009-new": {
+      "car": "009",
+      "label": "Исполнение 2024 · новые электроприводы",
+      "model": "009",
+      "nodes": [
+        2,
+        3
+      ]
+    },
+    "X-awd": {
+      "car": "X",
+      "label": "AWD · TZ180 / TZ220",
+      "model": "X",
+      "nodes": [
+        0,
+        1
+      ]
+    },
+    "7X-awd": {
+      "car": "7X",
+      "label": "AWD · YS190 / TZ235 / TZ230",
+      "model": "7X",
+      "nodes": [
+        0,
+        1
+      ]
+    },
+    "8X-900": {
+      "car": "8X",
+      "label": "900 л.с. · объёмы уточняются",
+      "model": "8X900",
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    },
+    "8X-1400": {
+      "car": "8X",
+      "label": "1400 л.с. · 70 кВт·ч · DHE20-PFZ",
+      "model": "8X1400",
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    },
+    "9X-low": {
+      "car": "9X",
+      "label": "Max / Ultra · 898 л.с. · 55 кВт·ч",
+      "model": "9X900",
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    },
+    "9X-hyper": {
+      "car": "9X",
+      "label": "Hyper · 1401 л.с. · 70 кВт·ч",
+      "model": "9X",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ]
     }
   }
 }
