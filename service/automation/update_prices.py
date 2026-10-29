@@ -27,7 +27,7 @@ def extract_price(raw, source):
     if source['identity'].casefold() not in text.casefold():
         raise ValueError('Product identity missing')
     # The short article following this exact label belongs to the selected pack.
-    article=re.search(r'Короткий артикул\s*:?\s*([0-9]{7}-[0-9A-Z]{3})\b',text,re.I)
+    article=re.search(r'(?:Короткий артикул|Артикул)\s*:?\s*([0-9]{7}-[0-9A-Z]{3})\b',text,re.I)
     if not article or article.group(1)!=source['sku']:
         raise ValueError('Selected SKU missing or differs; refusing to guess package')
     suffix=source['sku'].rsplit('-',1)[1]
@@ -43,12 +43,20 @@ def extract_price(raw, source):
 
 def fetch_quote(item):
     key,source=item
-    request=urllib.request.Request(source['url'],headers={'User-Agent':'SMCHIP-PriceCheck/1.0 (+https://github.com/artemmalov58-bit/SMCHIP)','Accept-Language':'ru'})
-    with urllib.request.urlopen(request,timeout=25) as response:
-        if urllib.parse.urlparse(response.url).hostname != 'shop.ravenol.ru':
-            raise ValueError('Unexpected source host')
-        html=response.read(8_000_000).decode('utf-8')
-    return key,extract_price(html,source)
+    errors=[]
+    for url in [source['url']]+source.get('fallback_urls',[]):
+        try:
+            if urllib.parse.urlparse(url).hostname not in ('shop.ravenol.ru','catalog.ravenol.ru'):
+                raise ValueError('Unapproved source host')
+            request=urllib.request.Request(url,headers={'User-Agent':'SMCHIP-PriceCheck/1.0 (+https://github.com/artemmalov58-bit/SMCHIP)','Accept-Language':'ru'})
+            with urllib.request.urlopen(request,timeout=20) as response:
+                if urllib.parse.urlparse(response.url).hostname not in ('shop.ravenol.ru','catalog.ravenol.ru'):
+                    raise ValueError('Unexpected source host')
+                html=response.read(8_000_000).decode('utf-8')
+            return key,extract_price(html,source),url
+        except Exception as exc:
+            errors.append(urllib.parse.urlparse(url).hostname+': '+type(exc).__name__+' '+str(exc)[:80])
+    raise ValueError('; '.join(errors))
 
 def update():
     sources=json.loads((ROOT/'price_sources.json').read_text())
@@ -59,7 +67,7 @@ def update():
         for future,key in [(f,k) for f,k in futures.items()]:
             row=data['products'][key];row['lastAttemptAt']=now
             try:
-                _,price=future.result();row.update(price=price,pack=sources[key]['pack'],sku=sources[key]['sku'],url=sources[key]['url'],verifiedAt=now,verification='direct',status='ok');row.pop('error',None)
+                _,price,source_url=future.result();row.update(price=price,sourceURL=source_url,pack=sources[key]['pack'],sku=sources[key]['sku'],url=sources[key]['url'],verifiedAt=now,verification='direct',status='ok');row.pop('error',None)
                 print(key,price,'RUB /',row['pack'],'L',row['sku'])
             except Exception as exc:
                 row['status']='error';row['error']=str(exc)[:200];failed.append(key);print(key,'UNCHANGED:',type(exc).__name__,str(exc)[:160])
