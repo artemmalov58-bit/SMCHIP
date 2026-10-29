@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "cadenceHours": 6,
-  "lastAttemptAt": null,
+  "lastAttemptAt": "2026-10-29T14:11:28+00:00",
   "products": {
     "dfe": {
       "url": "https://shop.ravenol.ru/motornoe-maslo-ravenol-dfe-0w-20/?sku_id=80",
@@ -11,8 +11,10 @@
       "price": 9728,
       "verifiedAt": null,
       "verification": "reference",
-      "status": "reference",
-      "referenceDate": "2026-10-29"
+      "status": "error",
+      "referenceDate": "2026-10-29",
+      "lastAttemptAt": "2026-10-29T14:11:28+00:00",
+      "error": "<urlopen error timed out>"
     },
     "extra": {
       "url": "https://shop.ravenol.ru/ravenol-ev-synto-extra-fluid-70w-e-tf/",
@@ -22,8 +24,10 @@
       "price": 3704,
       "verifiedAt": null,
       "verification": "reference",
-      "status": "reference",
-      "referenceDate": "2026-10-29"
+      "status": "error",
+      "referenceDate": "2026-10-29",
+      "lastAttemptAt": "2026-10-29T14:11:28+00:00",
+      "error": "<urlopen error timed out>"
     },
     "super": {
       "url": "https://shop.ravenol.ru/ravenol-ev-synto-super-fluid-75w-e-tf/",
@@ -33,8 +37,10 @@
       "price": 2284,
       "verifiedAt": null,
       "verification": "reference",
-      "status": "reference",
-      "referenceDate": "2026-10-29"
+      "status": "error",
+      "referenceDate": "2026-10-29",
+      "lastAttemptAt": "2026-10-29T14:11:28+00:00",
+      "error": "<urlopen error timed out>"
     },
     "vgl": {
       "url": "https://shop.ravenol.ru/ravenol-vgl-70w-80/?sku_id=11988",
@@ -44,8 +50,10 @@
       "price": 4833,
       "verifiedAt": null,
       "verification": "reference",
-      "status": "reference",
-      "referenceDate": "2026-10-29"
+      "status": "error",
+      "referenceDate": "2026-10-29",
+      "lastAttemptAt": "2026-10-29T14:11:28+00:00",
+      "error": "<urlopen error timed out>"
     },
     "dot": {
       "url": "https://shop.ravenol.ru/ravenol-dot-4-lv/?sku_id=13161",
@@ -55,8 +63,10 @@
       "price": 2265,
       "verifiedAt": null,
       "verification": "reference",
-      "status": "reference",
-      "referenceDate": "2026-10-29"
+      "status": "error",
+      "referenceDate": "2026-10-29",
+      "lastAttemptAt": "2026-10-29T14:11:28+00:00",
+      "error": "<urlopen error timed out>"
     },
     "etc": {
       "url": "https://shop.ravenol.ru/ravenol-etc-premix-40c-protect-c12evo/?sku_id=12083",
@@ -66,8 +76,10 @@
       "price": 4026,
       "verifiedAt": null,
       "verification": "reference",
-      "status": "reference",
-      "referenceDate": "2026-10-29"
+      "status": "error",
+      "referenceDate": "2026-10-29",
+      "lastAttemptAt": "2026-10-29T14:11:28+00:00",
+      "error": "<urlopen error timed out>"
     }
   }
 }
