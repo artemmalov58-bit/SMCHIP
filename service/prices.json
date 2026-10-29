@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "cadenceHours": 6,
+  "lastAttemptAt": null,
+  "products": {
+    "dfe": {
+      "url": "https://shop.ravenol.ru/motornoe-maslo-ravenol-dfe-0w-20/?sku_id=80",
+      "sku": "1111109-004",
+      "pack": 4,
+      "identity": "DFE 0W-20",
+      "price": 9728,
+      "verifiedAt": null,
+      "verification": "reference",
+      "status": "reference",
+      "referenceDate": "2026-10-29"
+    },
+    "extra": {
+      "url": "https://shop.ravenol.ru/ravenol-ev-synto-extra-fluid-70w-e-tf/",
+      "sku": "1215101-001",
+      "pack": 1,
+      "identity": "EV-Synto Extra Fluid 70W E-TF",
+      "price": 3704,
+      "verifiedAt": null,
+      "verification": "reference",
+      "status": "reference",
+      "referenceDate": "2026-10-29"
+    },
+    "super": {
+      "url": "https://shop.ravenol.ru/ravenol-ev-synto-super-fluid-75w-e-tf/",
+      "sku": "1215102-001",
+      "pack": 1,
+      "identity": "EV-Synto Super Fluid 75W E-TF",
+      "price": 2284,
+      "verifiedAt": null,
+      "verification": "reference",
+      "status": "reference",
+      "referenceDate": "2026-10-29"
+    },
+    "vgl": {
+      "url": "https://shop.ravenol.ru/ravenol-vgl-70w-80/?sku_id=11988",
+      "sku": "1221112-001",
+      "pack": 1,
+      "identity": "VGL 70W-80",
+      "price": 4833,
+      "verifiedAt": null,
+      "verification": "reference",
+      "status": "reference",
+      "referenceDate": "2026-10-29"
+    },
+    "dot": {
+      "url": "https://shop.ravenol.ru/ravenol-dot-4-lv/?sku_id=13161",
+      "sku": "1350615-001",
+      "pack": 1,
+      "identity": "DOT 4 LV",
+      "price": 2265,
+      "verifiedAt": null,
+      "verification": "reference",
+      "status": "reference",
+      "referenceDate": "2026-10-29"
+    },
+    "etc": {
+      "url": "https://shop.ravenol.ru/ravenol-etc-premix-40c-protect-c12evo/?sku_id=12083",
+      "sku": "1410166-005",
+      "pack": 5,
+      "identity": "ETC Premix",
+      "price": 4026,
+      "verifiedAt": null,
+      "verification": "reference",
+      "status": "reference",
+      "referenceDate": "2026-10-29"
+    }
+  }
+}

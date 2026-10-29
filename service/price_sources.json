@@ -1,0 +1,38 @@
+{
+  "dfe": {
+    "url": "https://shop.ravenol.ru/motornoe-maslo-ravenol-dfe-0w-20/?sku_id=80",
+    "sku": "1111109-004",
+    "pack": 4,
+    "identity": "DFE 0W-20"
+  },
+  "extra": {
+    "url": "https://shop.ravenol.ru/ravenol-ev-synto-extra-fluid-70w-e-tf/",
+    "sku": "1215101-001",
+    "pack": 1,
+    "identity": "EV-Synto Extra Fluid 70W E-TF"
+  },
+  "super": {
+    "url": "https://shop.ravenol.ru/ravenol-ev-synto-super-fluid-75w-e-tf/",
+    "sku": "1215102-001",
+    "pack": 1,
+    "identity": "EV-Synto Super Fluid 75W E-TF"
+  },
+  "vgl": {
+    "url": "https://shop.ravenol.ru/ravenol-vgl-70w-80/?sku_id=11988",
+    "sku": "1221112-001",
+    "pack": 1,
+    "identity": "VGL 70W-80"
+  },
+  "dot": {
+    "url": "https://shop.ravenol.ru/ravenol-dot-4-lv/?sku_id=13161",
+    "sku": "1350615-001",
+    "pack": 1,
+    "identity": "DOT 4 LV"
+  },
+  "etc": {
+    "url": "https://shop.ravenol.ru/ravenol-etc-premix-40c-protect-c12evo/?sku_id=12083",
+    "sku": "1410166-005",
+    "pack": 5,
+    "identity": "ETC Premix"
+  }
+}

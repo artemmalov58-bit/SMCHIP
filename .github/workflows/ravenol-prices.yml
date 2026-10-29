@@ -1,0 +1,42 @@
+name: Update official RAVENOL prices
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/ravenol-prices.yml'
+      - 'service/automation/update_prices.py'
+      - 'service/price_sources.json'
+permissions:
+  contents: write
+concurrency:
+  group: ravenol-prices
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch exact official pack prices
+        id: fetch
+        continue-on-error: true
+        run: python3 service/automation/update_prices.py
+      - name: Publish quotes and check status
+        env:
+          FETCH_OUTCOME: ${{ steps.fetch.outcome }}
+        run: |
+          git config user.name 'SM CHIP price updater'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add service/prices.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update verified RAVENOL quotes and source status'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+          if [ "$FETCH_OUTCOME" != 'success' ]; then
+            echo 'At least one source failed. Previous valid prices were retained with their actual verification dates.'
+            exit 1
+          fi
