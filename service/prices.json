@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "cadenceHours": 6,
-  "lastAttemptAt": "2026-10-29T14:11:28+00:00",
+  "lastAttemptAt": "2026-10-29T14:21:09+00:00",
   "products": {
     "dfe": {
       "url": "https://shop.ravenol.ru/motornoe-maslo-ravenol-dfe-0w-20/?sku_id=80",
@@ -13,8 +13,8 @@
       "verification": "reference",
       "status": "error",
       "referenceDate": "2026-10-29",
-      "lastAttemptAt": "2026-10-29T14:11:28+00:00",
-      "error": "<urlopen error timed out>"
+      "lastAttemptAt": "2026-10-29T14:21:09+00:00",
+      "error": "shop.ravenol.ru: URLError <urlopen error timed out>; catalog.ravenol.ru: URLError <urlopen error timed out>"
     },
     "extra": {
       "url": "https://shop.ravenol.ru/ravenol-ev-synto-extra-fluid-70w-e-tf/",
@@ -26,8 +26,8 @@
       "verification": "reference",
       "status": "error",
       "referenceDate": "2026-10-29",
-      "lastAttemptAt": "2026-10-29T14:11:28+00:00",
-      "error": "<urlopen error timed out>"
+      "lastAttemptAt": "2026-10-29T14:21:09+00:00",
+      "error": "shop.ravenol.ru: URLError <urlopen error timed out>; catalog.ravenol.ru: URLError <urlopen error timed out>"
     },
     "super": {
       "url": "https://shop.ravenol.ru/ravenol-ev-synto-super-fluid-75w-e-tf/",
@@ -39,8 +39,8 @@
       "verification": "reference",
       "status": "error",
       "referenceDate": "2026-10-29",
-      "lastAttemptAt": "2026-10-29T14:11:28+00:00",
-      "error": "<urlopen error timed out>"
+      "lastAttemptAt": "2026-10-29T14:21:09+00:00",
+      "error": "shop.ravenol.ru: URLError <urlopen error timed out>; catalog.ravenol.ru: URLError <urlopen error timed out>"
     },
     "vgl": {
       "url": "https://shop.ravenol.ru/ravenol-vgl-70w-80/?sku_id=11988",
@@ -52,8 +52,8 @@
       "verification": "reference",
       "status": "error",
       "referenceDate": "2026-10-29",
-      "lastAttemptAt": "2026-10-29T14:11:28+00:00",
-      "error": "<urlopen error timed out>"
+      "lastAttemptAt": "2026-10-29T14:21:09+00:00",
+      "error": "shop.ravenol.ru: URLError <urlopen error timed out>; catalog.ravenol.ru: URLError <urlopen error timed out>"
     },
     "dot": {
       "url": "https://shop.ravenol.ru/ravenol-dot-4-lv/?sku_id=13161",
@@ -65,8 +65,8 @@
       "verification": "reference",
       "status": "error",
       "referenceDate": "2026-10-29",
-      "lastAttemptAt": "2026-10-29T14:11:28+00:00",
-      "error": "<urlopen error timed out>"
+      "lastAttemptAt": "2026-10-29T14:21:09+00:00",
+      "error": "shop.ravenol.ru: URLError <urlopen error timed out>; catalog.ravenol.ru: URLError <urlopen error timed out>"
     },
     "etc": {
       "url": "https://shop.ravenol.ru/ravenol-etc-premix-40c-protect-c12evo/?sku_id=12083",
@@ -78,8 +78,8 @@
       "verification": "reference",
       "status": "error",
       "referenceDate": "2026-10-29",
-      "lastAttemptAt": "2026-10-29T14:11:28+00:00",
-      "error": "<urlopen error timed out>"
+      "lastAttemptAt": "2026-10-29T14:21:09+00:00",
+      "error": "shop.ravenol.ru: URLError <urlopen error timed out>; catalog.ravenol.ru: URLError <urlopen error timed out>"
     }
   }
 }
