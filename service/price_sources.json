@@ -70,5 +70,14 @@
     "fallback_urls": [
       "https://catalog.ravenol.ru/antifriz-ravenol-htc-protect-mb-3250-premix--40c/"
     ]
+  },
+  "lgc": {
+    "url": "https://shop.ravenol.ru/antifriz-ravenol-lgc-lobrid-glycerin-coolant-premix--40c/",
+    "sku": "1410129-005",
+    "pack": 5,
+    "identity": "LGC",
+    "fallback_urls": [
+      "https://catalog.ravenol.ru/antifriz-ravenol-lgc-lobrid-glycerin-coolant-premix--40c/"
+    ]
   }
 }

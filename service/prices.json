@@ -112,6 +112,20 @@
       "referenceDate": "2026-10-30",
       "lastAttemptAt": "2026-10-30T12:58:04+00:00",
       "error": "shop.ravenol.ru: URLError <urlopen error timed out>; catalog.ravenol.ru: URLError <urlopen error timed out>"
+    },
+    "lgc": {
+      "url": "https://shop.ravenol.ru/antifriz-ravenol-lgc-lobrid-glycerin-coolant-premix--40c/",
+      "sku": "1410129-005",
+      "pack": 5,
+      "identity": "LGC",
+      "fallback_urls": [
+        "https://catalog.ravenol.ru/antifriz-ravenol-lgc-lobrid-glycerin-coolant-premix--40c/"
+      ],
+      "price": 1914,
+      "verifiedAt": null,
+      "verification": "reference",
+      "status": "reference",
+      "referenceDate": "2026-10-30"
     }
   }
 }
