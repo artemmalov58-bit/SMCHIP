@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "cadenceHours": 6,
-  "lastAttemptAt": "2026-10-29T22:46:43+00:00",
+  "lastAttemptAt": "2026-10-30T05:51:44+00:00",
   "products": {
     "dfe": {
       "url": "https://shop.ravenol.ru/motornoe-maslo-ravenol-dfe-0w-20/?sku_id=80",
@@ -13,7 +13,7 @@
       "verification": "reference",
       "status": "error",
       "referenceDate": "2026-10-29",
-      "lastAttemptAt": "2026-10-29T22:46:43+00:00",
+      "lastAttemptAt": "2026-10-30T05:51:44+00:00",
       "error": "shop.ravenol.ru: URLError <urlopen error timed out>; catalog.ravenol.ru: URLError <urlopen error timed out>"
     },
     "extra": {
@@ -26,7 +26,7 @@
       "verification": "reference",
       "status": "error",
       "referenceDate": "2026-10-29",
-      "lastAttemptAt": "2026-10-29T22:46:43+00:00",
+      "lastAttemptAt": "2026-10-30T05:51:44+00:00",
       "error": "shop.ravenol.ru: URLError <urlopen error timed out>; catalog.ravenol.ru: URLError <urlopen error timed out>"
     },
     "super": {
@@ -39,7 +39,7 @@
       "verification": "reference",
       "status": "error",
       "referenceDate": "2026-10-29",
-      "lastAttemptAt": "2026-10-29T22:46:43+00:00",
+      "lastAttemptAt": "2026-10-30T05:51:44+00:00",
       "error": "shop.ravenol.ru: URLError <urlopen error timed out>; catalog.ravenol.ru: URLError <urlopen error timed out>"
     },
     "vgl": {
@@ -52,7 +52,7 @@
       "verification": "reference",
       "status": "error",
       "referenceDate": "2026-10-29",
-      "lastAttemptAt": "2026-10-29T22:46:43+00:00",
+      "lastAttemptAt": "2026-10-30T05:51:44+00:00",
       "error": "shop.ravenol.ru: URLError <urlopen error timed out>; catalog.ravenol.ru: URLError <urlopen error timed out>"
     },
     "dot": {
@@ -65,7 +65,7 @@
       "verification": "reference",
       "status": "error",
       "referenceDate": "2026-10-29",
-      "lastAttemptAt": "2026-10-29T22:46:43+00:00",
+      "lastAttemptAt": "2026-10-30T05:51:44+00:00",
       "error": "shop.ravenol.ru: URLError <urlopen error timed out>; catalog.ravenol.ru: URLError <urlopen error timed out>"
     },
     "etc": {
@@ -78,7 +78,7 @@
       "verification": "reference",
       "status": "error",
       "referenceDate": "2026-10-29",
-      "lastAttemptAt": "2026-10-29T22:46:43+00:00",
+      "lastAttemptAt": "2026-10-30T05:51:44+00:00",
       "error": "shop.ravenol.ru: URLError <urlopen error timed out>; catalog.ravenol.ru: URLError <urlopen error timed out>"
     }
   }
