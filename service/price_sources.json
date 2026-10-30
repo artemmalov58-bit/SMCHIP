@@ -52,5 +52,23 @@
     "fallback_urls": [
       "https://catalog.ravenol.ru/ravenol-etc-premix-40c-protect-c12evo/?sku_id=12083"
     ]
+  },
+  "ecs": {
+    "url": "https://shop.ravenol.ru/motornoe-maslo-ravenol-ecs-0w-20/?sku_id=66",
+    "sku": "1111102-004",
+    "pack": 4,
+    "identity": "ECS",
+    "fallback_urls": [
+      "https://catalog.ravenol.ru/motornoe-maslo-ravenol-ecs-0w-20/?sku_id=66"
+    ]
+  },
+  "htc": {
+    "url": "https://shop.ravenol.ru/antifriz-ravenol-htc-protect-mb-3250-premix--40c/",
+    "sku": "1410121-005",
+    "pack": 5,
+    "identity": "HTC",
+    "fallback_urls": [
+      "https://catalog.ravenol.ru/antifriz-ravenol-htc-protect-mb-3250-premix--40c/"
+    ]
   }
 }
